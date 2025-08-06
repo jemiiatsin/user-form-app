@@ -1,14 +1,14 @@
-manifest.json
-
 json
 {
-  "name": "ÝÑã ËÈÊ ÇØáÇÚÇÊ",
-  "short_name": "ÝÑã ˜ÇÑÈÑ",
+  "name": "فرم ثبت اطلاعات کاربران",
+  "short_name": "فرم کاربر",
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#007bff",
-  "description": "Çáí˜íÔä ÓÇÏå ÈÑÇí ËÈÊ ÇØáÇÚÇÊ ˜ÇÑÈÑÇä",
+  "description": "اپلیکیشن ساده و سریع برای ثبت اطلاعات کاربران به صورت آفلاین و آنلاین",
+  "lang": "fa-IR",
+  "orientation": "portrait",
   "icons": [
     {
       "src": "icon-192.png",
