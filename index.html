@@ -3,7 +3,7 @@ html
 <html lang="fa">
 <head>
   <meta charset="UTF-8">
-  <title>›—„ À»  «ÿ·«⁄« </title>
+  <title>√ù√ë√£ √ã√à√ä √á√ò√°√á√ö√á√ä</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="manifest" href="manifest.json">
   <script>
@@ -22,32 +22,32 @@ html
   </style>
 </head>
 <body>
-  <h2>›—„ À»  «ÿ·«⁄«  ò«—»—</h2>
+  <h2>√ù√ë√£ √ã√à√ä √á√ò√°√á√ö√á√ä Àú√á√ë√à√ë</h2>
   <form id="userForm">
-    <label for="firstName">‰«„:</label>
+    <label for="firstName">√§√á√£:</label>
     <input type="text" id="firstName" name="firstName">
 
-    <label for="lastName">‰«„ Œ«‰Ê«œêÌ:</label>
+    <label for="lastName">√§√á√£ √é√á√§√¶√á√è¬ê√≠:</label>
     <input type="text" id="lastName" name="lastName">
 
     <div class="gender">
-      <label>Ã‰”Ì :</label>
-      <input type="checkbox" id="male" name="gender" value="„—œ"> „—œ
-      <input type="checkbox" id="female" name="gender" value="“‰"> “‰
+      <label>√å√§√ì√≠√ä:</label>
+      <input type="checkbox" id="male" name="gender" value="√£√ë√è"> √£√ë√è
+      <input type="checkbox" id="female" name="gender" value="√í√§"> √í√§
     </div>
 
     <button type="button" onclick="saveData()">Save</button>
   </form>
 
   <hr>
-  <h3>«ÿ·«⁄«  –ŒÌ—Âù‘œÂ:</h3>
+  <h3>√á√ò√°√á√ö√á√ä √ê√é√≠√ë√•¬ù√î√è√•:</h3>
   <div id="savedData"></div>
 
   <script>
     function saveData() {
       const firstName = document.getElementById("firstName").value;
       const lastName = document.getElementById("lastName").value;
-      const gender = document.getElementById("male").checked ? "„—œ" : document.getElementById("female").checked ? "“‰" : "‰«„‘Œ’";
+      const gender = document.getElementById("male").checked ? "√£√ë√è" : document.getElementById("female").checked ? "√í√§" : "√§√á√£√î√é√ï";
 
       const userData = {
         firstName,
@@ -63,9 +63,9 @@ html
       const data = JSON.parse(localStorage.getItem("userData"));
       if (data) {
         document.getElementById("savedData").innerHTML = 
-          <p><strong>‰«„:</strong> ${data.firstName}</p>
-          <p><strong>‰«„ Œ«‰Ê«œêÌ:</strong> ${data.lastName}</p>
-          <p><strong>Ã‰”Ì :</strong> ${data.gender}</p>
+          <p><strong>√§√á√£:</strong> ${data.firstName}</p>
+          <p><strong>√§√á√£ √é√á√§√¶√á√è¬ê√≠:</strong> ${data.lastName}</p>
+          <p><strong>√å√§√ì√≠√ä:</strong> ${data.gender}</p>
         ;
       }
     }
