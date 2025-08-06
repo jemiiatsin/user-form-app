@@ -2,13 +2,13 @@ manifest.json
 
 json
 {
-  "name": "›—„ À»  «ÿ·«⁄« ",
-  "short_name": "›—„ ò«—»—",
+  "name": "√ù√ë√£ √ã√à√ä √á√ò√°√á√ö√á√ä",
+  "short_name": "√ù√ë√£ Àú√á√ë√à√ë",
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#007bff",
-  "description": "«Å·ÌòÌ‘‰ ”«œÂ »—«Ì À»  «ÿ·«⁄«  ò«—»—«‰",
+  "description": "√á¬Å√°√≠Àú√≠√î√§ √ì√á√è√• √à√ë√á√≠ √ã√à√ä √á√ò√°√á√ö√á√ä Àú√á√ë√à√ë√á√§",
   "icons": [
     {
       "src": "icon-192.png",
